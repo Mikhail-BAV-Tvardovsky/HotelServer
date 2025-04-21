@@ -27,7 +27,7 @@ namespace HotelServer.Services
             return new LoginResponse
             {
                 Success = true,
-                Message = $"Добро пожаловать, {user.Role}!",
+                Message = $"Добро пожаловать, {user.Role}!", // проверка раз два три сема хуй соси педораз
                 Role = user.Role
             };
         }
